@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .leadership {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: gray;
+  }
+  
+  .leader-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  .leader-list-item {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+  }
+  
+  .leader-list-item img {
+    border-radius: 60%;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.5em;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: black;
+    text-align: left;
+  }
+  

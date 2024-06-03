@@ -1,0 +1,148 @@
+
+
+.hero-section {
+    background-image: url('/src/assets/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.hero-image {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+object-fit: cover;
+z-index: 1;
+}
+
+.hero-content{
+    justify-content: center;
+    align-items: center;
+text-align: center;
+}
+.hero-content .title {
+    font-size: 26px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-content .sub-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* styling the About-section */
+.About-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:gray;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+.about-us {
+    text-align: center;
+    font-size: 26px;
+    background-color:gray;
+    font-weight: 500;
+}
+.about-us .title-description {
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.about-us-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2px solid black;
+}
+.about-us-list {
+    margin-bottom: 20px;
+}
+
+.title, .sub-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+     font-weight:500 ;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title-description, .sub-title-description {
+    font-size: 10px;
+    line-height: 1.5;
+}
+
+/* Add some spacing around the sections */
+.about-us, .our-mission, .our-values, .objectives {
+    padding: 10px;
+}
+
+.about-us:last-child, .our-mission:last-child, .our-values:last-child, .objectives:last-child {
+    border-bottom: none;
+}
+.members {
+    text-align: center;
+    font-size: 26px;
+    background-color:white;
+}
+.members .sub-title{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.member-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: gray;
+}
+
+.member-testimonial-list {
+    flex: 1 1 300px; 
+    margin: 10px; 
+    background-color:gray; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.member-testimonial-list img {
+    width: 100%; 
+    height: auto; 
+}
+
+.member-testimonial-list caption {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.testimonial {
+    margin: 5px 0; /* Adjust margin as needed */
+}
+
+.member-status {
+    margin-top: 10px; /* Adjust margin as needed */
+}
