@@ -3,7 +3,7 @@ import Header from './components/Header/HeaderTop';
 import Footer from './components/Footer/FooterTop';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home/Home';
-import Leaders from './pages/Leadership/Leaders';
+import Leaders from './pages/Leaders/Leaders';
 import Tracks from './pages/Tracks/Tracks';
 import Events from './pages/Events/Events';
 

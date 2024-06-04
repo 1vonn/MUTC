@@ -4,6 +4,7 @@ const Tracks = () => {
     return(
         <section className="tracks">
             <TrackTop/>
+    
         </section>
     )
 }
